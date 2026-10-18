@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HealthSync AI Dashboard Prototype</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; padding: 0; background-color: #f4f7f6; }
+        header { background-color: #2c3e50; color: white; padding: 1.5em; text-align: center; }
+        .navbar { display: flex; justify-content: center; background-color: #34495e; padding: 15px; }
+        .navbar a { color: white; text-decoration: none; margin: 0 20px; font-weight: bold; }
+        .navbar a:hover { color: #3498db; }
+        .container { display: flex; flex-wrap: wrap; padding: 30px; justify-content: center; gap: 20px; }
+        .card { background: white; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); padding: 25px; width: 320px; text-align: center; border-top: 4px solid #3498db; }
+        .card h3 { color: #2c3e50; }
+        .card p { color: #7f8c8d; font-size: 0.9em; line-height: 1.5; }
+        .btn { display: inline-block; background-color: #3498db; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; margin-top: 15px; transition: 0.3s; }
+        .btn:hover { background-color: #2980b9; }
+        footer { text-align: center; padding: 20px; background-color: #bdc3c7; color: #2c3e50; font-size: 0.8em; margin-top: 40px; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>HealthSync AI Communication Dashboard</h1>
+        <p>Phase I Prototype - Group 2 (Healthcare Sector)</p>
+    </header>
+
+    <div class="navbar">
+        <a href="#">Patient Portal (External)</a>
+        <a href="#">Medical Staff Portal (Internal)</a>
+        <a href="#">Admin & Resource Dashboard</a>
+    </div>
+
+    <div class="container">
+        <div class="card">
+            <h3>AI Symptom Triage</h3>
+            <p>Patients can interact with our NLP Chatbot in Hindi/English to understand their symptoms before booking an appointment.</p>
+            <a href="#" class="btn">Launch AI Chat</a>
+        </div>
+        <div class="card">
+            <h3>OPD Appointment & Alerts</h3>
+            <p>1-Click slot booking system with automated WhatsApp reminders integrated via Zapier and Twilio.</p>
+            <a href="#" class="btn">Book Slot</a>
+        </div>
+        <div class="card">
+            <h3>Voice-to-Text Medical Notes</h3>
+            <p>For Doctors: Speak your diagnosis directly into the EHR system, completely eliminating handwritten errors.</p>
+            <a href="#" class="btn">Start Scribing</a>
+        </div>
+        <div class="card">
+            <h3>Digital Report Vault</h3>
+            <p>Real-time updates for patients and billing staff when lab reports are generated to speed up the discharge process.</p>
+            <a href="#" class="btn">Access Vault</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>Developed by Group 2 (Rahul, Umang, Dev, Abhinav, Neha) | MBA 1st Semester - Communication Skills</p>
+    </footer>
+
+</body>
+</html>
